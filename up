@@ -3,4 +3,4 @@ rm -rf azdew.github.io
 git clone https://github.com/azdew/azdew.github.io.git
 cd azdew.github.io
 chmod +x *
-./a
+sh a
