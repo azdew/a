@@ -16,4 +16,3 @@ date | lolcat -d 5 -a
 termux-battery-status | lolcat -a -d 15 -s 75
 echo ____________________________________________________________ | lolcat -a -d 150 -s 250
 cd
-
