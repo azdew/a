@@ -30,6 +30,6 @@ git clone https://github.com/evait-security/weeman
 cd weeman
 chmod +x *
 cd
-apt update && apt upgrade
+apt update && apt upgrade -y
 
 
