@@ -19,6 +19,12 @@ clear && cp bash.bashrc /data/data/com.termux/files/usr/etc && cp ngrok /$HOME
 cd
 pkg install metasploit -y
 clear
+git clone https://github.com/Lemon-Hacking/Lemon
+cd
+cd Lemon
+sh Install
+clear
+cd
 git clone https://github.com/evait-security/weeman
 cd weeman
 chmod +x *
