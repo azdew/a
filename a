@@ -16,7 +16,7 @@ pkg install nano
 gem install lolcat
 clear
 pip install --upgrade pip && pip install requests && pip2 install requests && pip2 install mechanize && pip install colorama && pip2 install colorama && pip install --upgrade pip
-clear && cd /data/data/com.termux/files/usr/etc && rm -rf bash.bashrc && cd && cd a && cp bash.bashrc /data/data/com.termux/files/usr/etc && cp ngrok /$HOME
+clear && cp bash.bashrc /data/data/com.termux/files/usr/etc && cp ngrok /$HOME
 cd
 pkg install metasploit -y
 clear
