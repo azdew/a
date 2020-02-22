@@ -7,7 +7,7 @@ fi
 PS1='\$ '
 alias n='clear; toilet -f slant GAN  XS | lolcat -a -p 1 -d 15 -s 100; date | lolcat -a -d 5 -s 40; echo ----------------------------------------------------------- | lolcat -a -d 75 -s 500'
 alias ch='cd ..; cd usr; cd etc; nano bash.bashrc'
-alias up='cd; cd azdew.github.io; sh up'
+alias up='cd; cd a; sh up'
 alias hackface='cd ;cd weeman ;python2 weeman.py'
 alias a='clear; toilet -f slant GOODBYE | lolcat -a -p 1 -d 15 -s 100; exit'
 clear
