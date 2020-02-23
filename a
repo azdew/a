@@ -18,17 +18,23 @@ clear
 pip install --upgrade pip && pip install requests && pip2 install requests && pip2 install mechanize && pip install colorama && pip2 install colorama && pip install --upgrade pip
 clear && cp bash.bashrc /data/data/com.termux/files/usr/etc && cp ngrok /$HOME
 cd
+echo Do you want to install hackdt ? ( yes / no ) | lolcat
+read -p '>> ' traloi
+if [ $traloi = yes ]
+then
+clear
 pkg install metasploit -y
 clear
-git clone https://github.com/Lemon-Hacking/Lemon
-cd
-cd Lemon
-sh Install
-clear
+fi
 cd
 git clone https://github.com/evait-security/weeman
 cd weeman
 chmod +x *
+cd
+git clone https://github.com/Neo-Oli/termux-ubuntu
+cd termux-ubuntu
+chmod +x *
+sh ubuntu.sh
 cd
 apt update && apt upgrade -y
 
