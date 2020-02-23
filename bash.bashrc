@@ -11,7 +11,7 @@ alias up='cd; cd a; sh up ;clear'
 alias hackface='clear ;cd ;cd weeman ;python2 weeman.py'
 alias clo='clear; toilet -f slant GOODBYE | lolcat -a -d 15 -s 50 -p 1; exit'
 alias ubuntu='cd ;clear ;cd termux-ubuntu; ./start-ubuntu.sh'
-aliad hackdt='clear ;cd ;cd a ;sh command'
+alias hackdt='clear ;cd ;cd a ;sh command'
 clear
 toilet -f slant GAN  XS | lolcat -a -d 15 -s 50 -p 1
 date | lolcat -d 5 -a
