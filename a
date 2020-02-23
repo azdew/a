@@ -18,7 +18,7 @@ clear
 pip install --upgrade pip && pip install requests && pip2 install requests && pip2 install mechanize && pip install colorama && pip2 install colorama && pip install --upgrade pip
 clear && cp bash.bashrc /data/data/com.termux/files/usr/etc && cp ngrok /$HOME
 cd
-echo Do you want to install hackdt ? ( yes / no ) | lolcat
+echo Do you want to install hackdt ? ( yes / no )
 read -p '>> ' traloi
 if [ $traloi = yes ]
 then
