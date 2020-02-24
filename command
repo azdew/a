@@ -18,6 +18,6 @@ msfconsole -r auto.rc
 fi
 else
 pkg install metasploit -y
-h-android
+h-droid
 fi
 
