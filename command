@@ -20,5 +20,16 @@ echo 'exploit' | lolcat
 msfconsole -r auto.rc
      fi
 else
-pkg install metasploit
+echo 'you must install metasploit to run h-droid'
+echo 'CONTINUE ??? ( yes / no ) ' | lolcat -a
+read -p '>> ' concheck
+     if [ $concheck = yes ]
+     then
+pkg install metasploit -y
+clear
+toilet -f slant -w 40 install COMPLETE !!! | lolcat -a
+h-droid
+     else
+echo 'You can't use h-droid'
+     fi
 fi
