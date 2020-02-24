@@ -1,0 +1,4 @@
+cd
+cd weeman
+python2 weeman.py -p /$HOME/a/profile-weeman
+cd
