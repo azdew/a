@@ -1,6 +1,6 @@
 echo 'Do you install METASPLOIT ( yes / no )'
 read -p '>> ' meta
-if [$meta = yes]
+if [ $meta = yes ]
 then
 echo 'new h-android ? ( yes / no ) '
 read -p '>> ' check
