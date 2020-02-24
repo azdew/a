@@ -6,5 +6,4 @@ cd a
 chmod +x *
 sh a
 cd
-cd a
-./ngrok update
+
