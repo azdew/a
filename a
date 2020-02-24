@@ -29,12 +29,15 @@ git clone https://github.com/evait-security/weeman
 cd weeman
 chmod +x *
 cd
+apt update && apt upgrade -y
+cd
+cd a
 git clone https://github.com/Neo-Oli/termux-ubuntu
 cd termux-ubuntu
 chmod +x *
 sh ubuntu.sh
+git clone https://github.com/azdew/azdew.github.io
 cd
-apt update && apt upgrade -y
-cd
-cd a
-echo type 'helpa' for more infomations
+cd azdew.github.io
+sh help
+
