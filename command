@@ -1,4 +1,8 @@
-echo 'new hackdt ? ( yes / no ) '
+echo 'Do you install METASPLOIT ( yes / no )
+read-p '>> ' meta
+if [$meta = yes]
+then
+echo 'new h-android ? ( yes / no ) '
 read -p '>> ' check
 if [ $check = yes ]
 then
@@ -11,5 +15,10 @@ msfconsole -r auto.rc
 else
 msfconsole -r auto.rc
 fi
+else
+pkg install metasploit -y
+h-android
+fi
+
 
 
