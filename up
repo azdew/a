@@ -1,5 +1,6 @@
 cd
 rm -rf a
+rm -rf weeman
 git clone https://github.com/azdew/a
 cd a
 chmod +x *
