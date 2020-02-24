@@ -39,5 +39,5 @@ sh ubuntu.sh
 git clone https://github.com/azdew/azdew.github.io
 cd
 cd azdew.github.io
-sh help
+sh info
 
