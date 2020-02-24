@@ -6,8 +6,4 @@ cd a
 chmod +x *
 sh a
 cd
-echo 'run this command for more info'
-toilet -f smblock -F metal helpa
-echo ________________________________________________________________ | lolcat -a -d 9999999999999 -s 250
-echo 'use Ctrl-C to continue'
 
