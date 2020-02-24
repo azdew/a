@@ -11,7 +11,7 @@ alias up='cd; cd a; sh up ;clear'
 alias hackfb='clear ;cd ;cd a; sh weeman'
 alias clo='clear; toilet -f slant GOODBYE | lolcat -a -d 15 -s 50 -p 1; exit'
 alias ubuntu='cd ;clear ;cd termux-ubuntu; ./start-ubuntu.sh ;cd'
-alias h-droid='clear ;cd ;cd a ;bash command ;cd'
+alias h-droid='clear ;cd ;cd a ;./command ;cd'
 alias helpa='clear ;cd ;cd a ;sh help'
 clear
 toilet -f slant GAN  XS | lolcat -a -d 15 -s 50 -p 1
