@@ -37,5 +37,4 @@ cd
 apt update && apt upgrade -y
 cd
 cd a
-sh hackdt
-
+echo type 'helpa' for more infomations
