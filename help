@@ -1,0 +1,5 @@
+toilet -f slant COMMAND | lolcat -a -d 15 -s 50 -p 1
+echo 'up' | lolcat && echo 'update my git' && echo
+echo 'hackfb' | lolcat && echo 'creat clone web face' && echo
+echo 'h-droid' | lolcat && echo 'hack android by metasploit framework +ubuntu--ngrok (no rooted)' && echo
+
