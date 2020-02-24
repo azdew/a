@@ -1,4 +1,4 @@
-echo 'Do you install METASPLOIT ( yes / no )
+echo 'Do you install METASPLOIT ( yes / no )'
 read-p '>> ' meta
 if [$meta = yes]
 then
