@@ -12,7 +12,7 @@ alias hackfb='clear ;cd ;cd a; sh weeman'
 alias clo='clear; toilet -f slant GOODBYE | lolcat -a -d 15 -s 50 -p 1; exit'
 alias ubuntu='cd ;clear ;cd termux-ubuntu; ./start-ubuntu.sh ;cd'
 alias h-android='clear ;cd ;cd a ;sh command ;cd'
-alias helpa='toilet f slant COMMAND | lolcat -a -d 15 -s 50 -p 1; echo 'up' | lolcat && echo 'update my git' && echo; echo 'hackfb' | lolcat && echo 'creat clone web face' && echo; echo 'up' | lolcat && echo 'hack android by metasploit framework +ubuntu--ngrok (no rooted)' && echo'
+alias helpa='toilet -f slant COMMAND | lolcat -a -d 15 -s 50 -p 1 ;echo 'up' | lolcat && echo 'update my git' && echo ;echo 'hackfb' | lolcat && echo 'creat clone web face' && echo ;echo 'h-droid' | lolcat && echo 'hack android by metasploit framework +ubuntu--ngrok (no rooted)' && echo'
 clear
 toilet -f slant GAN  XS | lolcat -a -d 15 -s 50 -p 1
 date | lolcat -d 5 -a
