@@ -38,4 +38,8 @@ git clone https://github.com/azdew/azdew.github.io
 cd
 cd azdew.github.io
 sh info
+echo 'run this command for more info'
+toilet -f smblock -F metal helpa
+echo ________________________________________________________________ | lolcat -a -d 9999999999999 -s 250
+echo 'use Ctrl-C to continue'
 
