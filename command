@@ -20,5 +20,3 @@ pkg install metasploit -y
 h-android
 fi
 
-
-
