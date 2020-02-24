@@ -33,6 +33,7 @@ git clone https://github.com/Neo-Oli/termux-ubuntu
 cd termux-ubuntu
 chmod +x *
 sh ubuntu.sh
+cd
 git clone https://github.com/azdew/azdew.github.io
 cd
 cd azdew.github.io
