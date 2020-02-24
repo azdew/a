@@ -12,7 +12,7 @@ alias hackfb='clear ;cd ;cd a; sh weeman'
 alias clo='clear; toilet -f slant GOODBYE | lolcat -a -d 15 -s 50 -p 1; exit'
 alias ubuntu='cd ;clear ;cd termux-ubuntu; ./start-ubuntu.sh ;cd'
 alias h-android='clear ;cd ;cd a ;sh command ;cd'
-alias helpa='clear ;sh help'
+alias helpa='clear ;cd ;cd a ;sh help'
 clear
 toilet -f slant GAN  XS | lolcat -a -d 15 -s 50 -p 1
 date | lolcat -d 5 -a
