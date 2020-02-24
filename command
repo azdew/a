@@ -20,6 +20,8 @@ msfconsole -r auto.rc
 fi
 else
 pkg install metasploit -y
+clear
+toilet -f slant install COMPLETE !!! | lolcat -a
 h-droid
 fi
 
