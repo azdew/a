@@ -33,3 +33,4 @@ h-droid
 echo 'You can't use h-droid'
      fi
 fi
+cd /sdcard
