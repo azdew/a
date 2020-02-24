@@ -5,9 +5,6 @@ if [ $con = yes ]
 then
 pkg install metasploit -y
 clear
-toilet -f slant -w 40 install COMPLETE | lolcat -a
+toilet -f slant -w 80 install COMPLETE | lolcat -a
 h-droid
-else
-echo 'You can't use h-droid'
-cd
 fi
