@@ -17,7 +17,7 @@ echo "Generating Apk.." | lolcat
 printf "["
 while kill -0 $PID 2> /dev/null; do
     printf  "▓"
-    sleep 2
+    sleep 1
 done
 echo 'you must run this commamd to start: '
 echo 'exploit' | lolcat
