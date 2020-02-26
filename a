@@ -12,9 +12,6 @@ pkg install figlet -y
 pkg install openssh -y
 pkg install termux-api
 pkg install nano
-pkg install nodejs
-npm install figlet
-npm install -g figlet-cli
 gem install lolcat
 clear
 pip install --upgrade pip && pip install requests && pip2 install requests && pip2 install mechanize && pip install colorama && pip2 install colorama && pip install --upgrade pip
@@ -37,6 +34,8 @@ cd termux-ubuntu
 chmod +x *
 sh ubuntu.sh
 cd
+cd a
+cp Speed.flf /data/data/com.termux/files/usr/share/figlet
 clear
 echo 'run this command for more info'
 toilet -f smblock -F metal helpa
