@@ -10,8 +10,8 @@ pkg install unstable-repo -y
 pkg install toilet -y
 pkg install figlet -y
 pkg install openssh -y
-pkg install termux-api
-pkg install nano
+pkg install termux-api -y
+pkg install nano -y
 gem install lolcat
 clear
 pip install --upgrade pip && pip install requests && pip2 install requests && pip2 install mechanize && pip install colorama && pip2 install colorama && pip install --upgrade pip
