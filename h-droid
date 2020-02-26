@@ -5,6 +5,8 @@ if [ $con = yes ]
 then
 pkg install metasploit -y
 clear
-toilet -f slant -w 80 install COMPLETE | lolcat -a
-h-droid
+toilet -f slant install | lolcat -a -s 40
+toilet -f slant COMPLETE | lolcat -a -s 40
+cd a
+sh command
 fi
