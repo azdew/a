@@ -30,7 +30,7 @@ cd weeman
 chmod +x *
 cd
 clear
-echo 'phone rooted ???? ( yes / no )
+echo 'phone rooted ???? ( yes / no ) '
 read -p '>> ' tra
 if [ $tra = no ]
 then
