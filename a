@@ -29,8 +29,16 @@ git clone https://github.com/evait-security/weeman
 cd weeman
 chmod +x *
 cd
+clear
+echo 'phone rooted ???? ( yes / no )
+read -p '>> ' tra
+if [ $tra = no ]
+then
 git clone https://github.com/Neo-Oli/termux-ubuntu
 cd termux-ubuntu
+else
+pkg install tsu
+fi
 chmod +x *
 sh ubuntu.sh
 cd
