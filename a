@@ -44,6 +44,7 @@ sh ubuntu.sh
 cd
 cd a
 cp Speed.flf /data/data/com.termux/files/usr/share/figlet
+cd chmod +x ngrok
 clear
 echo 'run this command for more info'
 toilet -f smblock -F metal helpa
