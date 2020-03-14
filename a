@@ -6,7 +6,6 @@ pkg install ruby -y
 pkg install curl -y
 pkg install wget -y
 pkg install proot -y
-pkg install unstable-repo -y
 pkg install toilet -y
 pkg install figlet -y
 pkg install openssh -y
@@ -34,13 +33,15 @@ echo 'phone rooted ???? ( yes / no ) '
 read -p '>> ' tra
 if [ $tra = no ]
 then
+pkg install unstable-repo -y
 git clone https://github.com/Neo-Oli/termux-ubuntu
 cd termux-ubuntu
-else
-pkg install tsu
-fi
 chmod +x *
 sh ubuntu.sh
+else
+pkg install root-repo -y
+pkg install tsu -y
+fi
 cd
 cd a
 cp Speed.flf /data/data/com.termux/files/usr/share/figlet
