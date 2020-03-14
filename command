@@ -6,6 +6,7 @@ echo 'new hack android ? ( yes / no ) '
 read -p '>> ' check
      if [ $check = yes ]
      then
+echo 'you must get port from ngrok tcp 8080'
 echo LPORT: | lolcat
 read -p '>> ' LPORT
 echo Apk name: | lolcat
