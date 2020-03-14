@@ -32,7 +32,6 @@ chmod +x *
 sh ubuntu.sh
 else
 pkg install root-repo -y
-pkg install tsu -y
 fi
 echo 'Do you want to install hack android ? ( yes / no )'
 read -p '>> ' traloi
