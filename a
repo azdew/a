@@ -31,6 +31,12 @@ cd termux-ubuntu
 chmod +x *
 sh ubuntu.sh
 else
+cd
+cd a
+cp unstable.list /$PREFIX/etc/apt/sources.list.d
+cd
+cd a
+sh updatecom
 pkg install root-repo -y
 fi
 echo 'Do you want to install hack android ? ( yes / no )'
