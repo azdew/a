@@ -15,14 +15,6 @@ gem install lolcat
 clear
 pip install --upgrade pip && pip install requests && pip2 install requests && pip2 install mechanize && pip install colorama && pip2 install colorama && pip install --upgrade pip
 clear && cd /data/data/com.termux/files/usr/etc && rm -rf bash.bashrc && cd && cd a && cp bash.bashrc /data/data/com.termux/files/usr/etc && cp ngrok /$HOME
-echo 'Do you want to install hack android ? ( yes / no )'
-read -p '>> ' traloi
-if [ $traloi = yes ]
-then
-clear
-pkg install metasploit -y
-clear
-fi
 cd
 git clone https://github.com/evait-security/weeman
 cd weeman
@@ -41,6 +33,14 @@ sh ubuntu.sh
 else
 pkg install root-repo -y
 pkg install tsu -y
+fi
+echo 'Do you want to install hack android ? ( yes / no )'
+read -p '>> ' traloi
+if [ $traloi = yes ]
+then
+clear
+pkg install metasploit -y
+clear
 fi
 cd
 cd a
