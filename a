@@ -45,7 +45,9 @@ fi
 cd
 cd a
 cp Speed.flf /data/data/com.termux/files/usr/share/figlet
-cd chmod +x *
+cd 
+chmod +x *
+su -c pm install /data/data/com.termux/files/home/a/api.apk
 clear
 echo 'run this command for more info'
 toilet -f smblock -F metal helpa
