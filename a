@@ -46,7 +46,7 @@ cd a
 cp Speed.flf /data/data/com.termux/files/usr/share/figlet
 cd 
 chmod +x *
-if [ $tra = no ]
+if [ $tra != no ]
 then
 su -c pm install /data/data/com.termux/files/home/a/api.apk
 fi
