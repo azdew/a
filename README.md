@@ -9,4 +9,4 @@ git clone https://github.com/azdew/a
 
 cd a
 
-sh a
+sh Install
