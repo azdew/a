@@ -1,11 +1,5 @@
 INSTALL:
-
 pkg install git -y
-
-
-
-
-
 
 
 
